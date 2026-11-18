@@ -3,7 +3,7 @@ name: Kapa VPN Update
 
 on:
   schedule:
-    - cron: "0 0,6,12,18 * * *"
+    - cron: "0 0,9,12,15,18,21 * * *"
   workflow_dispatch:
 
 permissions:
